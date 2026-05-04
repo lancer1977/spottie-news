@@ -1,0 +1,74 @@
+{
+  "news_digest": {
+    "delivery": {
+      "webhook_url": "https://discord.com/api/webhooks/1480906470059933848/D9-g-nHYlQOroJpVUiFjVv50zFz-BkkT1T1GTLO2cMei0DJv2fWLr3GvvFCTOpUAvWG2",
+      "openclaw_channel_webhook_url": "https://discord.com/api/webhooks/1480006409746907156/YHxz9QrjG8xMx3zFQYwYwYwYwYwYwYwYwYwYwYwYwYwYwYwYwYwYwYwYw"
+    },
+    "categories": {
+      "ai_news": {
+        "enabled": true,
+        "priority": 1,
+        "daily_max": 3,
+        "search_query": "artificial intelligence news",
+        "personality": {
+          "name": "Spottie",
+          "catchphrase": "Yo! Spottie in the house with the freshest AI scoops!",
+          "avatar_url": "https://cdn.polyhydragames.com/images/profiles/spottie.png"
+        },
+        "emoji": "🤖"
+      },
+      "dev_tools": {
+        "enabled": true,
+        "priority": 2,
+        "daily_max": 3,
+        "search_query": "developer tools programming software",
+        "personality": {
+          "name": "Spottie",
+          "catchphrase": "Yo! Spottie in the house with the freshest dev tools!",
+          "avatar_url": "https://cdn.polyhydragames.com/images/profiles/spottie.png"
+        },
+        "emoji": "🚨"
+      },
+      "automation": {
+        "enabled": true,
+        "priority": 3,
+        "daily_max": 2,
+        "search_query": "automation robotics tech news",
+        "personality": {
+          "name": "Spottie",
+          "catchphrase": "Yo! Spottie in the house with the freshest automation!",
+          "avatar_url": "https://cdn.polyhydragames.com/images/profiles/spottie.png"
+        },
+        "emoji": "⚙️"
+      },
+      "open_source": {
+        "enabled": true,
+        "priority": 4,
+        "daily_max": 2,
+        "search_query": "open source software news",
+        "personality": {
+          "name": "Spottie",
+          "catchphrase": "Yo! Spottie in the house with the freshest OSS!",
+          "avatar_url": "https://cdn.polyhydragames.com/images/profiles/spottie.png"
+        },
+        "emoji": "📦"
+      }
+    },
+    "state": {
+      "stories_today": {
+        "ai_news": 1,
+        "dev_tools": 1,
+        "automation": 2,
+        "open_source": 1
+      },
+      "last_category": "open_source",
+      "last_run": "2026-03-25T10:36:18.131320+00:00",
+      "openclaw_daily_last_posted": "2026-03-23",
+      "last_reset_date": "2026-03-25",
+      "posted_stories": []
+    },
+    "deduplication": {
+      "max_tracked_stories": 500
+    }
+  }
+}
